@@ -7,7 +7,7 @@ export default function FooterSection() {
                 <div className="space-y-4">
                     <div className="flex items-center gap-3">
                         <Image src="/logo-koi-tod.webp" alt="Truth or Dare Bar koi tod logo" width={36} height={36} style={{ width: "auto", height: "auto" }} />
-                        <Image src="/logo.png" alt="Truth or Dare Bar logo" width={192} height={28} />
+                        <Image src="/logo.png" alt="Truth or Dare Bar logo" width={189} height={28} style={{ height: "28px", width: "auto" }} priority loading="eager" />
                     </div>
                     <p className="max-w-md text-sm leading-7 text-zinc-200">
                         A cinematic cocktail destination in Auckland’s Snickel Lane. Reserve early for private tables, curated menus, and refined late-night hospitality.
@@ -24,7 +24,7 @@ export default function FooterSection() {
                     </div>
                     <div>
                         <p className="text-sm uppercase tracking-[0.28em] text-zinc-200">Contact</p>
-                        <p className="mt-3 text-sm leading-7 text-zinc-100">reserve@truthordarebar.com</p>
+                        <p className="mt-3 text-sm leading-7 text-zinc-100">truthordarebar@gmail.com</p>
                     </div>
                 </div>
                 <div className="mt-8 flex flex-col gap-4 border-t border-white/10 pt-6 text-sm sm:flex-row sm:items-center sm:justify-between">

@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export default function ReservationSection() {
     return (
-        <section className="border-t border-white/10 bg-[#060405] py-20">
+        <section id="reservation" className="border-t border-white/10 bg-[#060405] py-20">
             <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
                 <motion.div
                     initial={{ opacity: 0, y: 24 }}

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
     return (
-        <section className="relative overflow-hidden pb-16 pt-6 sm:pb-20 md:pt-8">
+        <section id="home" className="relative overflow-hidden pb-16 pt-6 sm:pb-20 md:pt-8">
             <div className="absolute inset-0 bg-black/60" />
             <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/70" />
             <div className="absolute inset-0">
@@ -28,20 +28,10 @@ export default function HeroSection() {
                         transition={{ duration: 0.9, ease: "easeOut" }}
                         className="max-w-3xl rounded-[2rem] border border-white/10 bg-black/40 p-8 shadow-[0_35px_120px_-70px_rgba(0,0,0,0.8)] backdrop-blur-2xl sm:p-10"
                     >
-                        <div className="mb-6 flex items-center gap-4">
-                            <Image
-                                src="/logo.png"
-                                alt="Truth or Dare Bar logo"
-                                width={220}
-                                height={32}
-                                loading="eager"
-                                className="h-auto w-auto"
-                            />
-                        </div>
                         <h1 className="text-5xl font-semibold leading-tight tracking-[-0.04em] text-white sm:text-6xl lg:text-7xl drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
                             Auckland’s intimate cocktail lounge.
                         </h1>
-                        <p className="max-w-2xl text-base leading-8 text-white sm:text-lg drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">
+                        <p className="mt-4 max-w-2xl text-base leading-8 text-white sm:text-lg drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">
                             Artful cocktails and moody hospitality in Snickel Lane.
                         </p>
                         <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:gap-6 mt-2 mb-4">

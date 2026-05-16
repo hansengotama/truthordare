@@ -21,7 +21,21 @@ export const metadata: Metadata = {
   description:
     "Cinematic luxury nightlife destination with craft cocktails, immersive atmosphere, and premium reservations.",
   icons: {
-    icon: "/logo.png",
+    icon: "/logo-koi-tod.webp",
+  },
+  openGraph: {
+    title: "Truth or Dare Bar | Premium Cocktail Lounge",
+    description:
+      "Cinematic luxury nightlife destination with craft cocktails, immersive atmosphere, and premium reservations.",
+    type: "website",
+    locale: "en_NZ",
+    siteName: "Truth or Dare Bar",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Truth or Dare Bar | Premium Cocktail Lounge",
+    description:
+      "Cinematic luxury nightlife destination with craft cocktails, immersive atmosphere, and premium reservations.",
   },
 };
 

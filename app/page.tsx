@@ -1,3 +1,4 @@
+import NavbarSection from "@/components/sections/NavbarSection";
 import HeroSection from "@/components/sections/HeroSection";
 import SignatureCocktailsSection from "@/components/sections/SignatureCocktailsSection";
 import StorySection from "@/components/sections/StorySection";
@@ -9,6 +10,7 @@ import FooterSection from "@/components/sections/FooterSection";
 export default function Home() {
   return (
     <main className="bg-[#060405] text-white">
+      <NavbarSection />
       <HeroSection />
       <SignatureCocktailsSection />
       <StorySection />
