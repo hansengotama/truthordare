@@ -29,7 +29,7 @@ export default function SignatureCocktailsSection() {
         <section id="cocktails" className="border-t border-white/10 bg-[#060405] py-20">
             <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
                 <div className="max-w-3xl space-y-6">
-                    <p className="text-sm uppercase tracking-[0.34em] text-[#bd1e2e]/90">Signature cocktails</p>
+                    <p className="text-sm uppercase tracking-[0.34em] text-[#e8293b]">Signature cocktails</p>
                     <h2 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">
                         Crafted with daring flavours and refined balance.
                     </h2>
@@ -52,7 +52,7 @@ export default function SignatureCocktailsSection() {
                                 <Image src={item.image} alt={item.name} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 33vw" />
                             </div>
                             <div className="space-y-4 p-6">
-                                <p className="text-sm uppercase tracking-[0.3em] text-[#bd1e2e]/90">{item.label}</p>
+                                <p className="text-sm uppercase tracking-[0.3em] text-[#e8293b]">{item.label}</p>
                                 <h3 className="text-2xl font-semibold text-white">{item.name}</h3>
                                 <p className="text-sm leading-6 text-zinc-400">{item.feature}</p>
                             </div>

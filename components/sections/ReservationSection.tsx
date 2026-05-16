@@ -16,7 +16,7 @@ export default function ReservationSection() {
                 >
                     <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
                         <div className="space-y-4">
-                            <p className="text-sm uppercase tracking-[0.34em] text-[#bd1e2e]/90">Reservation</p>
+                            <p className="text-sm uppercase tracking-[0.34em] text-[#e8293b]">Reservation</p>
                             <h2 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">
                                 Secure your seat in the lounge.
                             </h2>

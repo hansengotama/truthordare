@@ -40,11 +40,11 @@ export default function HeroSection() {
                         </div>
                         <div className="grid gap-5 text-sm sm:grid-cols-2">
                             <div className="space-y-1 rounded-[1.5rem] bg-black/60 backdrop-blur-sm border border-white/10 p-4">
-                                <p className="text-xs uppercase tracking-[0.34em] text-[#bd1e2e]/90">OPEN</p>
+                                <p className="text-xs uppercase tracking-[0.34em] text-[#e8293b]">OPEN</p>
                                 <p className="text-sm uppercase tracking-[0.24em] text-white">MON–SAT · 4:00PM – MIDNIGHT</p>
                             </div>
                             <div className="space-y-1 rounded-[1.5rem] bg-black/40 backdrop-blur-sm border border-white/10 p-4">
-                                <p className="text-xs uppercase tracking-[0.34em] text-[#bd1e2e]/90">Location</p>
+                                <p className="text-xs uppercase tracking-[0.34em] text-[#e8293b]">Location</p>
                                 <p className="text-sm uppercase tracking-[0.24em] text-white">9/23 Commerce Street<br />Snickel Lane, Auckland Central</p>
                             </div>
                         </div>

@@ -21,7 +21,7 @@ export default function OwnerSpotlightSection() {
                         transition={{ duration: 0.8 }}
                         className="space-y-6"
                     >
-                        <p className="text-sm uppercase tracking-[0.34em] text-[#bd1e2e]/90">Owner spotlight</p>
+                        <p className="text-sm uppercase tracking-[0.34em] text-[#e8293b]">Owner spotlight</p>
                         <h2 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Theodore Tjandra</h2>
                         <p className="max-w-2xl text-base leading-8 text-zinc-300">
                             Founder and award-winning bartender. Theodore brings a deep respect for hospitality, a love of flavour, and a refined sense of drama to every cocktail and every guest experience.

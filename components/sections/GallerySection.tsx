@@ -15,7 +15,7 @@ export default function GallerySection() {
         <section id="gallery" className="border-t border-white/10 bg-[#070608] py-20">
             <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
                 <div className="space-y-6 text-center">
-                    <p className="text-sm uppercase tracking-[0.34em] text-[#bd1e2e]/90">Gallery</p>
+                    <p className="text-sm uppercase tracking-[0.34em] text-[#e8293b]">Gallery</p>
                     <h2 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">
                         Scenes from the bar.
                     </h2>
