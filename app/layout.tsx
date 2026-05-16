@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   title: "Truth or Dare Bar | Premium Cocktail Lounge",
   description:
     "Cinematic luxury nightlife destination with craft cocktails, immersive atmosphere, and premium reservations.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({

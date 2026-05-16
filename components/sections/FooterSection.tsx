@@ -6,8 +6,8 @@ export default function FooterSection() {
             <div className="mx-auto grid max-w-7xl gap-10 px-6 sm:px-8 lg:grid-cols-[1.2fr_0.8fr] lg:px-12 lg:items-center">
                 <div className="space-y-4">
                     <div className="flex items-center gap-3">
-                        <Image src="/logo-koi-tod.webp" alt="Truth or Dare Bar logo" width={36} height={36} style={{ width: "auto", height: "auto" }} />
-                        <p className="uppercase tracking-[0.32em] text-[#bd1e2e]/90">Truth or Dare Bar</p>
+                        <Image src="/logo-koi-tod.webp" alt="Truth or Dare Bar koi tod logo" width={36} height={36} style={{ width: "auto", height: "auto" }} />
+                        <Image src="/logo.png" alt="Truth or Dare Bar logo" width={192} height={28} />
                     </div>
                     <p className="max-w-md text-sm leading-7 text-zinc-200">
                         A cinematic cocktail destination in Auckland’s Snickel Lane. Reserve early for private tables, curated menus, and refined late-night hospitality.

@@ -21,12 +21,6 @@ export default function HeroSection() {
             </div>
 
             <div className="relative mx-auto flex min-h-[calc(100vh-4rem)] max-w-7xl flex-col justify-between px-6 pb-10 pt-6 sm:px-8 lg:px-12">
-                <header className="flex items-center justify-between gap-6 text-sm text-zinc-200">
-                    <div className="relative h-24 w-24">
-                        <Image src="/logo.png" alt="Truth or Dare Bar logo" width={92} height={92} loading="eager" className="object-contain drop-shadow-lg" />
-                    </div>
-                </header>
-
                 <div className="flex flex-1 flex-col justify-end gap-10 pt-12 lg:pt-16">
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
@@ -34,8 +28,15 @@ export default function HeroSection() {
                         transition={{ duration: 0.9, ease: "easeOut" }}
                         className="max-w-3xl rounded-[2rem] border border-white/10 bg-black/40 p-8 shadow-[0_35px_120px_-70px_rgba(0,0,0,0.8)] backdrop-blur-2xl sm:p-10"
                     >
-                        <div className="inline-flex items-center gap-3 rounded-full bg-black/50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-[#bd1e2e]">
-                            Auckland bespoke cocktail lounge
+                        <div className="mb-6 flex items-center gap-4">
+                            <Image
+                                src="/logo.png"
+                                alt="Truth or Dare Bar logo"
+                                width={220}
+                                height={32}
+                                loading="eager"
+                                className="h-auto w-auto"
+                            />
                         </div>
                         <h1 className="text-5xl font-semibold leading-tight tracking-[-0.04em] text-white sm:text-6xl lg:text-7xl drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
                             Auckland’s intimate cocktail lounge.
