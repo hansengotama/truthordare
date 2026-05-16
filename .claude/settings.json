@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ffmpeg -i /Users/hansen/Projects/truthordare/public/logo.png -quality 90 /Users/hansen/Projects/truthordare/public/logo.webp -y)",
+      "Bash(ffmpeg -i /Users/hansen/Projects/truthordare/public/logo.png -c:v libvpx-vp9 /Users/hansen/Projects/truthordare/public/logo.webp -y)",
+      "Bash(python3 -c \"from PIL import Image; img = Image.open\\('/Users/hansen/Projects/truthordare/public/logo.png'\\); img.save\\('/Users/hansen/Projects/truthordare/public/logo.webp', 'WEBP', quality=90, lossless=True\\); print\\('done'\\)\")",
+      "Bash(pip3 install *)",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}
