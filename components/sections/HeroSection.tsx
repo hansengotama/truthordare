@@ -32,20 +32,23 @@ export default function HeroSection() {
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.9, ease: "easeOut" }}
-                        className="space-y-8 max-w-3xl"
+                        className="max-w-3xl rounded-[2rem] border border-white/10 bg-black/40 p-8 shadow-[0_35px_120px_-70px_rgba(0,0,0,0.8)] backdrop-blur-2xl sm:p-10"
                     >
+                        <div className="inline-flex items-center gap-3 rounded-full bg-black/50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-[#bd1e2e]">
+                            Auckland bespoke cocktail lounge
+                        </div>
                         <h1 className="text-5xl font-semibold leading-tight tracking-[-0.04em] text-white sm:text-6xl lg:text-7xl drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
                             Auckland’s intimate cocktail lounge.
                         </h1>
                         <p className="max-w-2xl text-base leading-8 text-white sm:text-lg drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">
                             Artful cocktails and moody hospitality in Snickel Lane.
                         </p>
-                        <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
+                        <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:gap-6 mt-2 mb-4">
                             <Button className="w-full bg-[#bd1e2e] text-white hover:bg-[#9a1d25] sm:w-auto shadow-lg">Reserve a Table</Button>
                             <Button variant="secondary" className="w-full sm:w-auto shadow-md">View menu</Button>
                         </div>
-                        <div className="grid gap-4 text-sm sm:grid-cols-2">
-                            <div className="space-y-1 rounded-[1.5rem] bg-black/40 backdrop-blur-sm border border-white/10 p-4">
+                        <div className="grid gap-5 text-sm sm:grid-cols-2">
+                            <div className="space-y-1 rounded-[1.5rem] bg-black/60 backdrop-blur-sm border border-white/10 p-4">
                                 <p className="text-xs uppercase tracking-[0.34em] text-[#bd1e2e]/90">OPEN</p>
                                 <p className="text-sm uppercase tracking-[0.24em] text-white">MON–SAT · 4:00PM – MIDNIGHT</p>
                             </div>
