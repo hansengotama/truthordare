@@ -8,19 +8,19 @@ const cocktails = [
         name: "Velvet Kiss",
         feature: "Saffron gin, black cherry, jasmine cordial",
         label: "House favorite",
-        image: "/menu1.jpg",
+        image: "/menu1.webp",
     },
     {
         name: "Smoke & Mirrors",
         feature: "Mezcal, absinthe mist, charred fig",
         label: "Bold & smoky",
-        image: "/menu3.jpg",
+        image: "/menu3.webp",
     },
     {
         name: "Midnight Ritual",
         feature: "Oak-aged bourbon, yuzu, velvet spice",
         label: "Moody citrus",
-        image: "/menu4.jpg",
+        image: "/menu4.webp",
     },
 ];
 

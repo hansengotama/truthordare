@@ -11,7 +11,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/70" />
             <div className="absolute inset-0">
                 <Image
-                    src="/img6.jpg"
+                    src="/img6.webp"
                     alt="Truth or Dare Bar atmosphere"
                     fill
                     className="object-cover object-center opacity-100"

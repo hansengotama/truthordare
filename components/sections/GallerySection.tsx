@@ -4,10 +4,10 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const galleryItems = [
-    { src: "/img2.jpg", label: "Bar interior" },
-    { src: "/img3.jpg", label: "Signature cocktail" },
-    { src: "/img4.jpg", label: "Night lounge" },
-    { src: "/img5.jpg", label: "Warm hospitality" },
+    { src: "/img2.webp", label: "Bar interior" },
+    { src: "/img3.webp", label: "Signature cocktail" },
+    { src: "/img4.webp", label: "Night lounge" },
+    { src: "/img5.webp", label: "Warm hospitality" },
 ];
 
 export default function GallerySection() {

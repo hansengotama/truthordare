@@ -33,7 +33,7 @@ export default function StorySection() {
                     transition={{ duration: 0.8, delay: 0.1 }}
                     className="relative overflow-hidden rounded-[1.5rem] bg-[#0d0b10] h-[420px] sm:h-[520px]"
                 >
-                    <Image src="/menufood1.jpg" alt="Signature bar plating" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 48vw" />
+                    <Image src="/menufood1.webp" alt="Signature bar plating" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 48vw" />
                 </motion.div>
             </div>
         </section>
